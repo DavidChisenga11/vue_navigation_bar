@@ -1,12 +1,27 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
+  <div>
+   <david/>
+  </div>
   <router-view/>
+
 </template>
 
-<style>
+
+
+<script>
+import david from './components/Sidebar.vue';
+  export default{
+    // data(){}
+    components:{
+      david
+    }
+  }
+</script>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
