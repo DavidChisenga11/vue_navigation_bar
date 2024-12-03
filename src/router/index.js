@@ -23,3 +23,23 @@ const router = createRouter({
 })
 
 export default router
+
+
+
+
+const name ={
+  escort_name : '',
+  escort_ID : 'Number',
+  escort_contact_number: '',
+
+}
+  
+
+// const (...name, )
+
+
+// function generateCredentials()
+
+const names = generateCredentials(()=>{
+  this.name.escort_ID
+})
